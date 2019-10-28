@@ -1,5 +1,17 @@
-{{!-- The following component displays Ember's default welcome message. --}}
-<WelcomePage />
-{{!-- Feel free to remove this! --}}
+<h1>Ember Table Bug Reproduction</h1>
 
-{{outlet}}
+<h2></h2>
+
+<h3>Ember Verson: {{emberVersion}}</h3>
+
+<p>
+  To reproduce the bug, drag one of the columns to reorder it. When the dragged column is dropped,
+  a
+</p>
+
+<div>
+  <EmberTable as |t|>
+    <t.head @columns={{columns}} />
+    <t.body @rows={{rows}} />
+  </EmberTable>
+</div>
