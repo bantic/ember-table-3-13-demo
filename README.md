@@ -12,4 +12,6 @@ the columns after the first reorder.
 
 ## Demo of Working Behavior (Ember 3.12)
 
+Demo URL: https://et-3-12-no-bug.surge.sh
+
 ![demo of working](./ember-table-3-12-reorder-no-bug.gif)
