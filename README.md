@@ -8,6 +8,8 @@ the columns after the first reorder.
 
 ## Demo of Bug (Ember 3.13)
 
+Demo URL: https://et-3-13-bug.surge.sh
+
 ![demo of bug](./ember-table-3-13-reorder-bug.gif)
 
 ## Demo of Working Behavior (Ember 3.12)
